@@ -7,11 +7,11 @@ This project is about a simple and pure tool to collect selected health and perf
   LAutopin is designed to have minimum resource consumption. 
 * ** Daemon ** 
   LAutopin is a Daemon to be run on node-level. It collects data from different sensors using libraries like lm-sensors. Also, it includes some monitoring implementations from Project [Autopin+](https://github.com/lrr-tum/autopin-plus) such as MegWare ClustSafe.
- * ** Filtering ** 
+* ** Filtering ** 
    LAutopin is designed to have configurable data filter in order to reduce communication workload. 
- * ** Data Export ** 
+* ** Data Export ** 
    Additional to publish data through a selected communication module, LAutopin is also capable of store data to a selected endpoint. 
- * ** Communication **
+* ** Communication **
    LAutopin supports MQTT and Pipe Communication for feeding monitoring data. 
 
 # Example
