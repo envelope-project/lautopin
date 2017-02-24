@@ -1,0 +1,11 @@
+// Bakefile Tool for Makefile Generation. 
+
+toolsets = gnu;
+program shc{
+  //defines = DEBUG;
+  sources {shc.c};
+  sources {shcreader.c};
+  libdirs = ../../vendor/lm-sensors/lib;
+  includedirs = ../../vendor/lm-sensors/lib;
+  libs = sensors;
+}
