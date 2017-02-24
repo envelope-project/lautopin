@@ -1,0 +1,3 @@
+[submodule "vendor/lm-sensors"]
+	path = vendor/lm-sensors
+	url = https://github.com/groeck/lm-sensors.git
