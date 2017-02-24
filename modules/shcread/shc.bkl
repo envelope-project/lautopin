@@ -1,4 +1,4 @@
-// Bakefile Tool for Makefile Generation. 
+// Bakefile Tool for Makefile Generation.
 
 toolsets = gnu;
 program shc{

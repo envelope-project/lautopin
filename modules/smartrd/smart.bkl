@@ -1,0 +1,8 @@
+// Bakefile Tool for Makefile Generation.
+
+toolsets = gnu;
+program smart{
+  //defines = DEBUG;
+  sources {smartrd.c};
+  sources {smarttest.c};
+}
