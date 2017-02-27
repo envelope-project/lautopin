@@ -1,0 +1,8 @@
+// Bakefile Tool for Makefile Generation.
+
+toolsets = gnu;
+program logger{
+  //defines = DEBUG;
+  sources {LauLogger.c};
+  sources {test.c};
+}
