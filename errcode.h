@@ -1,0 +1,12 @@
+#ifndef INC_LAUTOPIN_ERR
+#define INC_LAUTOPIN_ERR
+
+#define BAD_ARGUMENT -10
+#define BAD_DEPENDENCIES -11
+#define PERMISSION_DENIED -12
+#define FILE_EXISTS -13
+#define NOT_INITIALIZED -14
+#define GENERAL_IO_ERROR -15
+
+
+#endif
